@@ -4,7 +4,7 @@ Implementation of https://github.com/m4st3rP/MyAnimeListUserListsMerger in pytho
 Code was haphazardly written in one sitting and not anywhere near production level. Probably will break if you don't treat it well. For now, just a proof of concept that may or may not be continued.
 
 Usage instructions:
-Copy plain text dump from http://affinity.animesos.net/ into first window. Submit will run the program and print back the results in the second window. Export will save the results to a file. Optionally, a username can also be specified. If one is, all previously seen entries are ignored. Expected input is as follows:
+Copy plain text dump from http://affinity.animesos.net/ into first window. Submit will run the program and print back the results in the second window. Export will save the results to a file (MALdump.txt in the current directory). Optionally, a username can also be specified. If one is, all previously seen entries are ignored. Expected input is as follows:
 
 <pre>
 #	UserName	Shared	Affinity	Last Online	Birthday	Gender	Joined	Location
