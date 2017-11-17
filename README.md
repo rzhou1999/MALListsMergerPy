@@ -14,4 +14,4 @@ Copy text dump from http://affinity.animesos.net/ into first window. Submit will
 etc.
 </pre>
 
-Algorithmically, MALListsMergerPy one borrows as closely as possible from the original, and should be functionally the same. MALListsMergerPy does not count shows that have not been rated.
+Algorithmically, MALListsMergerPy borrows as closely as possible from the original, and should be functionally the same, with the one exception that MALListsMergerPy does not count shows that have not been rated.
