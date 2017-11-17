@@ -28,7 +28,7 @@ def export():
 def generateFinal():
     global masterSet
     listF = []
-    stringF = ""
+    stringF = "NAME|AVG|WEIGHTED|COUNT|ID\n"
     for key, value in masterSet.iteritems():
         temp = [key]+value
         listF.append(temp)
@@ -40,7 +40,7 @@ def generateFinal():
 def finalHelper(inL): #converts input list inL to final list of return data
     global maxCount
     factor = 0.866
-    return [inL[0], inL[1]/inL[2]*factor, inL[1]/inL[2] + (inL[2] / maxCount) * (1.0 - factor) * 10.0, inL[2], inL[3]]
+    return [inL[0], 1.0*inL[1]/inL[2], factor*inL[1]/inL[2] + (1.0 * inL[2] / maxCount) * (1.0 - factor) * 10.0, inL[2], inL[3]]
 
 def userHandler(users, alreadySeen):
     for user in users:
